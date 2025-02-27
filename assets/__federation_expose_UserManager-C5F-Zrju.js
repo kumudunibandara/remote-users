@@ -6,7 +6,7 @@ import { g as getDefaultExportFromCjs } from './_commonjsHelpers-B85MJLTf.js';
 import './emotion-react.browser.esm-DXUuLxfX.js';
 
 const remotesMap = {
-'hostApp':{url:'https://kumudunibandara.github.io/host-app/assets/remoteEntry.js',format:'esm',from:'vite'}
+'hostApp':{url:'/host-app/assets/remoteEntry.js',format:'esm',from:'vite'}
 };
                 const currentImports = {};
 
@@ -3812,7 +3812,7 @@ var ALERT_TYPE = /* @__PURE__ */ ((ALERT_TYPE2) => {
   ALERT_TYPE2["WARNING"] = "warning";
   return ALERT_TYPE2;
 })(ALERT_TYPE || {});
-const API_URL = "http://localhost:5000/users";
+const API_URL = "https://heartpace-users.onrender.com/users/";
 
 const getUsersInfinite = async (startRow, endRow, sortModel, filterModel) => {
   try {

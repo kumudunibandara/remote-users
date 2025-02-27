@@ -3,10 +3,10 @@ const currentImports = {};
       let moduleMap = {
 "./Button":()=>{
       dynamicLoadingCss(["style-BbbFrNgw.css"], false, './Button');
-      return __federation_import('/Heartpace/assets/__federation_expose_Button-Cr8ucrEf.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},
+      return __federation_import('/remote-users/assets/__federation_expose_Button-Cr8ucrEf.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},
 "./UserManager":()=>{
       dynamicLoadingCss(["style-BbbFrNgw.css"], false, './UserManager');
-      return __federation_import('/Heartpace/assets/__federation_expose_UserManager-BsQhrzR4.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/remote-users/assets/__federation_expose_UserManager-C5F-Zrju.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
@@ -16,7 +16,7 @@ const currentImports = {};
         }
 
         const curUrl = metaUrl.substring(0, metaUrl.lastIndexOf('remoteEntry.js'));
-        const base = '/Heartpace/';
+        const base = '/remote-users/';
         'assets';
 
         cssFilePaths.forEach(cssPath => {
