@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     federation({
       name: "remoteApp",
-      filename: "remotieEntry.js",
+      filename: "remoteEntry.js",
       remotes: {
         hostApp: "https://kumudunibandara.github.io/host-app/assets/remoteEntry.js",
       },
