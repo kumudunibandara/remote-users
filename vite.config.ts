@@ -12,7 +12,7 @@ export default defineConfig({
       name: "remoteApp",
       filename: "remoteEntry.js",
       remotes: {
-        // hostApp: "http://localhost:3006/assets/remoteEntry.js",
+        hostApp: "https://kumudunibandara.github.io/host-app/assets/remoteEntry.js",
       },
       exposes: {
         "./Button": "./src/components/Button",
