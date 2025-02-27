@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     federation({
       name: "remoteApp",
-      filename: "remoteEntry.js",
+      filename: "remotieEntry.js",
       remotes: {
         hostApp: "https://kumudunibandara.github.io/host-app/assets/remoteEntry.js",
       },
@@ -37,7 +37,8 @@ export default defineConfig({
     modulePreload: false,
     target: "esnext",
     minify: false,
-    cssCodeSplit: false
+    cssCodeSplit: false,
+    assetsDir: ''
   },
   preview: {
     port: 3000,
