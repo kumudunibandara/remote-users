@@ -6,7 +6,7 @@ const currentImports = {};
       return __federation_import('/Heartpace/assets/__federation_expose_Button-Cr8ucrEf.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},
 "./UserManager":()=>{
       dynamicLoadingCss(["style-BbbFrNgw.css"], false, './UserManager');
-      return __federation_import('/Heartpace/assets/__federation_expose_UserManager-CYiNkO2m.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/Heartpace/assets/__federation_expose_UserManager-BsQhrzR4.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;

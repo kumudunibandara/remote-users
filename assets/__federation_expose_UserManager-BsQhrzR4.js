@@ -6,7 +6,7 @@ import { g as getDefaultExportFromCjs } from './_commonjsHelpers-B85MJLTf.js';
 import './emotion-react.browser.esm-DXUuLxfX.js';
 
 const remotesMap = {
-'hostApp':{url:'http://localhost:3006/assets/remoteEntry.js',format:'esm',from:'vite'}
+'hostApp':{url:'https://kumudunibandara.github.io/host-app/assets/remoteEntry.js',format:'esm',from:'vite'}
 };
                 const currentImports = {};
 
