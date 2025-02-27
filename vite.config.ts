@@ -5,14 +5,14 @@ import federation from "@originjs/vite-plugin-federation";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Heartpace/",
+  base: "/remote-users/",
   plugins: [
     react(),
     federation({
       name: "remoteApp",
       filename: "remoteEntry.js",
       remotes: {
-        hostApp: "https://kumudunibandara.github.io/host-app/assets/remoteEntry.js",
+        hostApp: "/host-app/assets/remoteEntry.js",
       },
       exposes: {
         "./Button": "./src/components/Button",
